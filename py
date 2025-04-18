@@ -18,3 +18,18 @@ inventory_2_6 = inventory[2:6]
 
 # Select the first three items in the inventory
 first_3 = inventory[0:3]
+
+# Count the number of 'twin bed' items in the inventory
+twin_beds = inventory.count('twin bed')
+
+# Remove the item at index 4 and store it in removed_item
+removed_item = inventory.pop(4)
+
+# Insert '19th Century Bed Frame' at index 10
+inventory.insert(10, '19th Century Bed Frame')
+
+# Sort the inventory list in alphabetical order
+inventory.sort()
+
+# Print the sorted inventory list
+print(inventory)
